@@ -37,7 +37,7 @@ img{max-width:100% !important; height: auto;}
 	-ms-transition:all .2s linear;
 }
 body{
-	background:url(../images/backgroundimage5.png);
+	background:url(../images/backgroundimage6.png);
 	font-family: 'Lato', sans-serif;
 	background-size: cover;
 	background-position: center center;
@@ -252,7 +252,7 @@ transform-origin: top left;
 	}
 	.email_signup_form form input[type="text"] {
 	width:200px;
-	font-size: 8px;
+	font-size: 12px;
 }
 	.social{
 		left:0%;
