@@ -38,7 +38,7 @@ img{max-width:100% !important; height: auto;}
 }
 body{
 	background:url(../images/backgroundimage4.png);
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -51,9 +51,9 @@ body{
 
 #tagline{
 	text-align: center;
-	font-family: 'Lato';
+	font-family: 'Open Sans';
 	font-size: 38px;
- 	font-weight: 100;
+ 	font-weight: 300;
  	max-width: 900px;
  	text-align: center;
  	color:#fff;
@@ -78,10 +78,10 @@ body{
 	margin-top: 140px;
 	max-width:700px;
 	width: 400px;
-	font-weight: 100;
+	font-weight: 300;
 }
 .input{
-	font-weight: 100;
+	font-weight: 300;
 }
 .email_signup_form form input[type="text"] {
 	border: none;
@@ -97,11 +97,11 @@ body{
     -webkit-appearance:none;
     border-right: 1px solid #6E6C6C;
     font-family: 'Lato';
-	font-weight: 100;
+	font-weight: 300;
 }
 .email_signup_form form input[type="text"]:focus{
 	color:#000;
-	font-weight: 100;
+	font-weight: 300;
 }
 #mc-embedded-subscribe{
 	background: url(../images/mail_actionbutton1.png) no-repeat;
@@ -149,7 +149,7 @@ transform-origin: top left;
 	font-family: 'Lato';
 	font-size: 22px;
 	height: 30px;
-	font-weight: 100;
+	font-weight: 300;
  	color: #f4f4f4;
  	margin-right: 40px;
 }
