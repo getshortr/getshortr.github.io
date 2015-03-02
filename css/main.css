@@ -226,7 +226,7 @@ transform-origin: top left;
 	}
 	.email_signup_form form input[type="text"] {
 	width:200px;
-	font-size: 12px;
+	font-size: 8px;
 	}
 }
 @media all and (max-width:480px){
@@ -252,7 +252,7 @@ transform-origin: top left;
 	}
 	.email_signup_form form input[type="text"] {
 	width:200px;
-	font-size: 12px;
+	font-size: 8px;
 }
 	.social{
 		left:0%;
