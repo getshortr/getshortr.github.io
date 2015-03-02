@@ -1,0 +1,254 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100% !important; height: auto;}
+/*end reset*/
+/* to ensure content stays within specified size for larger screens*/
+.wrap{
+	 transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+}
+body{
+	background:url(../images/backgroundimage4.png);
+	font-family: 'Lato', sans-serif;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#logo{
+	text-align: center;
+	margin-top: 80px;
+}
+
+#tagline{
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 38px;
+ 	font-weight: 100;
+ 	max-width: 900px;
+ 	text-align: center;
+ 	color:#fff;
+ 	margin: auto;
+ 	margin-top: 100px;
+}
+
+.email_signup{
+	display:inline-block;
+    padding-top: 30px;
+}
+.email_signup_form{
+	text-align: center;
+	background:rgba(255,255,255,0.89);
+	position: relative;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	padding: 1px;
+	margin: auto;
+	margin-top: 140px;
+	max-width:700px;
+	width: 400px;
+	font-weight: 100;
+}
+.input{
+	font-weight: 100;
+}
+.email_signup_form form input[type="text"] {
+	border: none;
+	outline: none;
+	background: none;
+	font-size:18px;
+	color:#6E6C6C;
+	width:300px;
+	height: 25px;
+	padding:6px 0px;
+	padding-right: 45px;
+	margin-left: -45px;
+    -webkit-appearance:none;
+    border-right: 1px solid #6E6C6C;
+    font-family: 'Lato';
+	font-weight: 100;
+}
+.email_signup_form form input[type="text"]:focus{
+	color:#000;
+	font-weight: 100;
+}
+#mc-embedded-subscribe{
+	background: url(../images/mail_actionbutton1.png) no-repeat;
+	margin-top:-25px;
+	margin-left: 15px;
+	float: right;
+	width:30px;
+	margin-right:5px;
+	border: none;
+	outline:none;
+	cursor: pointer;
+}
+
+
+.social {
+	margin-top: 100px;
+	display: inline-flex;
+	position: fixed;
+	bottom: 50px;
+	left:70%;
+	padding-right: 40px;
+}
+.facebook {
+	margin-right: 40px;
+	border-radius: 5px;
+}
+.facebook iframe{
+transform: scale(1.5);
+-ms-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+-o-transform: scale(1.5); 
+-moz-transform: scale(1.5); 
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left; 
+}
+
+.twitter {
+	margin-right: 40px;
+}
+
+.blog a {
+	font-family: 'Lato';
+	font-size: 22px;
+	height: 30px;
+	font-weight: 100;
+ 	color: #f4f4f4;
+ 	margin-right: 40px;
+}
+
+
+/**************** Media Quries ************************/
+@media only screen and (min-width: 1380px){
+.social {
+	margin-top: 100px;
+	display: inline-flex;
+	position: fixed;
+	bottom: 100px;
+	left:70%;
+	padding-right: 40px;
+	}
+}
+@media only screen and (max-width: 1366px){
+
+}
+@media only screen and (max-width: 1280px){
+
+}
+@media all and (max-width: 1024px){
+ 		body{
+		background-size: auto;
+		background-position: center center;
+	}
+	.social{
+		left:0%;
+		position: relative;
+		float: right;
+	}
+	#tagline{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 30px;
+	}
+ }
+
+@media all and (max-width:800px){
+	body{
+		background-size: cover;
+		background-position: center center;
+	}
+	.social{
+		left:0%;
+		position: relative;
+		float: right;
+	}
+	#tagline{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 30px;
+	}
+}
+@media all and (max-width:568px){
+	body{
+		background-size: cover;
+		background-position: center center;
+	}
+	.social{
+		left:0%;
+		position: relative;
+		float: right;
+	}
+	#tagline{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 30px;
+	}
+}
+@media all and (max-width:480px){
+	/* font size and spacings need to be adjusted*/
+		body{
+		background-size: cover;
+		background-position: center center;
+	}
+	.social{
+		left:0%;
+		position: relative;
+		float: right;
+	}
+	#tagline{
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 24px;
+		margin-top: 50px;
+	}
+	.email_signup_form{
+		margin-top: 70px;
+	}
+	.social{
+		left:0%;
+		bottom: 10px;
+		position: relative;
+		text-align: center;
+		margin-top: 70px;
+	}
+}
+@media all and (max-width:320px){
+/* font size and spacings need to be adjusted*/
+}
