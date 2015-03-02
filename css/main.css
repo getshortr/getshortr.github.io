@@ -224,6 +224,10 @@ transform-origin: top left;
 		padding-right: 20px;
 		font-size: 30px;
 	}
+	.email_signup_form form input[type="text"] {
+	width:200px;
+	font-size: 12px;
+	}
 }
 @media all and (max-width:480px){
 	/* font size and spacings need to be adjusted*/
