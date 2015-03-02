@@ -165,6 +165,10 @@ transform-origin: top left;
 	left:70%;
 	padding-right: 40px;
 	}
+	body{
+		background-size: auto;
+		background-position: center center;
+	}
 }
 @media only screen and (max-width: 1366px){
 
@@ -191,7 +195,7 @@ transform-origin: top left;
 
 @media all and (max-width:800px){
 	body{
-		background-size: cover;
+		background-size: auto;
 		background-position: center center;
 	}
 	.social{
@@ -207,7 +211,7 @@ transform-origin: top left;
 }
 @media all and (max-width:568px){
 	body{
-		background-size: cover;
+		background-size: auto;
 		background-position: center center;
 	}
 	.social{
@@ -224,7 +228,7 @@ transform-origin: top left;
 @media all and (max-width:480px){
 	/* font size and spacings need to be adjusted*/
 		body{
-		background-size: cover;
+		background-size: auto;
 		background-position: center center;
 	}
 	.social{
