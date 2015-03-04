@@ -121,7 +121,7 @@ body{
 	display: inline-flex;
 	position: fixed;
 	bottom: 50px;
-	left:70%;
+	left:55%;
 	padding-right: 40px;
 }
 .facebook {
@@ -146,6 +146,15 @@ transform-origin: top left;
 }
 
 .blog a {
+	font-family: 'Lato';
+	font-size: 22px;
+	height: 30px;
+	font-weight: 300;
+ 	color: #f4f4f4;
+ 	margin-right: 40px;
+}
+
+.contactus a {
 	font-family: 'Lato';
 	font-size: 22px;
 	height: 30px;
@@ -228,8 +237,8 @@ transform-origin: top left;
 		font-size: 30px;
 	}
 	.email_signup_form form input[type="text"] {
-	width:200px;
-	font-size: 8px;
+	width:250px;
+	font-size: 14px;
 	}
 }
 @media all and (max-width:480px){
@@ -237,11 +246,6 @@ transform-origin: top left;
 		body{
 		background-size: auto;
 		background-position: center center;
-	}
-	.social{
-		left:0%;
-		position: relative;
-		float: right;
 	}
 	#tagline{
 		padding-left: 20px;
@@ -256,14 +260,22 @@ transform-origin: top left;
 	.email_signup_form form input[type="text"] {
 	width:200px;
 	font-size: 12px;
-}
+	}
 	.social{
-		left:0%;
+		position: relative;
+		text-align: center;
+		margin: auto;
 		bottom: 10px;
 		padding: 10px;
 		position: relative;
-		text-align: center;
 		margin-top: 70px;
+		max-width: 380px;
+	}
+	.social a{
+		font-size: 20px;
+	}
+	.contactus a{
+		margin-right: 20px;
 	}
 }
 @media all and (max-width:320px){
