@@ -261,8 +261,8 @@ transform-origin: top left;
 }
 
 .tableborder{
-	box-shadow: 1px 1px 1px #979797;
-    border: 1px solid #a1a1a1;
+	box-shadow: 1px 1px 1px #f4f4f4;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     margin: 50px;
 }
@@ -276,11 +276,7 @@ transform-origin: top left;
 #fold4 td img{
 	vertical-align: top;
 	padding-left: 5px;
-}
-
-#fold4 img{
-	max-width: 100%;
-	height: auto;
+	padding-bottom: 10px;
 }
 
 #fold4 h2{
@@ -440,10 +436,6 @@ transform-origin: top left;
 }
 @media all and (max-width:480px){
 	/* font size and spacings need to be adjusted*/
-		body{
-		background-size: auto;
-		background-position: center center;
-	}
 	#tagline{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -459,19 +451,54 @@ transform-origin: top left;
 	font-size: 12px;
 	}
 	.social{
-
 		bottom: 10px;
 		padding: 10px;
 		margin-top: 70px;
-		max-width: 380px;
+		max-width: 320px;
+		overflow: hidden;
 	}
 	.social a{
 		font-size: 18px;
 	}
 	.contactus a{
+		margin-right: 10px;
+	}
+	.facebook{
 		margin-right: 20px;
 	}
+	.twitter{
+		margin-right: 10px;
+	}
+	.blog a{
+		margin-right: 10px;
+	}
+	.tableborder{
+	border: none;
+	box-shadow: none;
+	}
+	#fold4 img{
+		width: 200px;
+		height: auto;
+	}
+	#fold3 table{
+		max-width: 300px;
+	}
+	#fold3 li{
+		min-width: 250px;	
+		margin-left: 10px;
+	}
+
 }
 @media all and (max-width:320px){
 /* font size and spacings need to be adjusted*/
+	#fold2 table{
+		max-width: 300px;
+	}
+	#fold3 table{
+		max-width: 300px;
+	}
+	#fold3 li{
+		min-width: 250px;	
+		margin-left: -20px;
+	}
 }
