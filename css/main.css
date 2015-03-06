@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 /* reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,li,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0;padding:0;}
 blockquote,q{quotes:none;}
@@ -28,15 +28,14 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100% !important; height: auto;}
 /*end reset*/
-/* to ensure content stays within specified size for larger screens*/
-.wrap{
-	 transition:all .2s linear;
-	-moz-transition:all .2s linear;/* firefox */
-	-webkit-transition:all .2s linear; /* safari and chrome */
-	-o-transition:all .2s linear; /* opera */
-	-ms-transition:all .2s linear;
+.wrap {
+		max-width: 1024px;
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 }
-body{
+#fold1{
 	background:url(../images/backgroundimage6.png);
 	font-family: 'Lato', sans-serif;
 	background-size: cover;
@@ -46,7 +45,7 @@ body{
 
 #logo{
 	text-align: center;
-	margin-top: 80px;
+	padding-top: 70px;
 }
 
 #tagline{
@@ -58,7 +57,7 @@ body{
  	text-align: center;
  	color:#fff;
  	margin: auto;
- 	margin-top: 100px;
+ 	margin-top: 70px;
 }
 
 .email_signup{
@@ -75,7 +74,7 @@ body{
 	-o-border-radius:3px;
 	padding: 1px;
 	margin: auto;
-	margin-top: 140px;
+	margin-top: 130px;
 	max-width:700px;
 	width: 400px;
 	font-weight: 300;
@@ -89,11 +88,11 @@ body{
 	background: none;
 	font-size:18px;
 	color:#6E6C6C;
-	width:300px;
+	width:290px;
 	height: 25px;
 	padding:6px 0px;
 	padding-right: 45px;
-	margin-left: -45px;
+	margin-left: 5px;
     -webkit-appearance:none;
     border-right: 1px solid #6E6C6C;
     font-family: 'Lato';
@@ -105,8 +104,8 @@ body{
 }
 #mc-embedded-subscribe{
 	background: url(../images/mail_actionbutton1.png) no-repeat;
-	margin-top:-25px;
-	margin-left: 15px;
+	margin-top:10px;
+	margin-left: 0px;
 	float: right;
 	width:30px;
 	margin-right:5px;
@@ -115,17 +114,15 @@ body{
 	cursor: pointer;
 }
 
-
 .social {
-	margin-top: 100px;
 	display: inline-flex;
-	position: fixed;
-	bottom: 50px;
-	left:53%;
-	padding-right: 40px;
+	padding-top: 90px;	
+	padding-bottom: 20px;
+	text-align: left;
 }
+
 .facebook {
-	margin-right: 40px;
+	margin-right: 50px;
 	border-radius: 5px;
 }
 .facebook iframe{
@@ -164,72 +161,230 @@ transform-origin: top left;
 }
 
 
+#fold2 h1{
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	color:#494040;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#fold2 table{
+	margin-top: 80px;
+	vertical-align: middle;
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+#fold2 h2{
+	font-size: 28px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	color:#494040;
+	padding-top: 25px;
+	text-align: center;
+}
+#fold2 td{
+	width: 50%;
+}
+
+#fold2 p{
+	width: 70%;
+	padding-top: 35px;
+	font-size: 24px;
+	line-height: 30px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color:#3F3F3F;
+	padding-top: 20px;
+	text-align: center;
+	margin: auto;
+}
+#fold3{
+	background-color: #f4f4f4;
+	padding-bottom: 50px;
+}
+#fold3 h1{
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	color:#494040;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#fold3 table{
+	margin-top: 50px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+#fold3 td{
+	width: 50%;
+}
+
+#fold3 h2{
+	font-size: 28px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	color:#10AACC;
+	text-align: center;	
+	text-shadow: 0.25px 0.25px #000000;
+	padding-bottom: 20px;
+}
+
+#fold3 li{
+	list-style-type: none;
+	font-size:24px; 
+	text-align: left;
+	margin-left: 35%;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #6F6F6F;
+	line-height: 36px;
+}
+
+#fold4 h1{
+	font-size: 40px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	color:#494040;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#fold4 table{
+	vertical-align: middle;
+	width: 100%;
+}
+
+.tableborder{
+	box-shadow: 1px 1px 1px #979797;
+    border: 1px solid #a1a1a1;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+#fold4 td{
+	min-width: 250px;
+	vertical-align: baseline;
+	margin-bottom: 20px;
+}
+
+#fold4 td img{
+	vertical-align: top;
+	padding-left: 5px;
+}
+
+#fold4 img{
+	max-width: 100%;
+	height: auto;
+}
+
+#fold4 h2{
+	font-size: 28px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	color: #4f4f4f;
+	padding: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+#fold4 h2 a:link,
+#fold4 h2 a:visited {
+    color: #4f4f4f;
+}
+
+#fold4 p{
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Roboto';
+	color: #434343;
+	padding: 10px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	line-height: 28px;
+	text-align: left;
+}
+
+#footer{
+	background-color: #3b3b3b;
+}
+
+#footersocial{
+	padding-top: 15px;
+	display: inline-flex;
+	padding-bottom: 15px;
+}
+
 /**************** Media Quries ************************/
 @media only screen and (min-width: 1380px){
-.social {
-	margin-top: 100px;
-	display: inline-flex;
-	position: fixed;
-	bottom: 100px;
-	left:70%;
-	padding-right: 40px;
-	}
-	body{
-		background-size: auto;
-		background-position: center center;
-	}
+
 }
 @media only screen and (max-width: 1366px){
 
 }
 @media only screen and (max-width: 1280px){
-	body{
-		background-size: auto;
-		background-position: center center;
-	}
+
 }
 @media all and (max-width: 1024px){
- 	body{
-		background-size: auto;
-		background-position: center center;
-	}
-	.social{
-		left:0%;
-		position: relative;
-		float: right;
-	}
-	#tagline{
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 30px;
-	}
+ 	
  }
 
-@media all and (max-width:800px){
+@media only screen and (max-width:800px){
 	body{
 		background-size: auto;
 		background-position: center center;
 	}
 	.social{
-		left:0%;
-		position: relative;
-		float: right;
+
 	}
 	#tagline{
 		padding-left: 20px;
 		padding-right: 20px;
 		font-size: 30px;
 	}
+	
+	#fold2 h1{
+		font-size: 32px;
+	}
+	
+	#fold3 h1{
+		font-size: 32px;
+	}
+	#fold4 h1{
+		font-size: 32px;
+	}
+	#fold2 h2{
+		font-size: 26px;
+	}
+	
+	#fold3 h2{
+		font-size: 26px;
+	}
+	#fold4 h2 a{
+		font-size: 26px;
+	}
+	#fold2 p{
+		font-size: 22px;
+	}
+	#fold3 li{
+		font-size: 22px;
+	}
+	#fold4 p{
+		font-size: 18px;
+	}
 }
-@media all and (max-width:568px){
+@media only screen and (max-width:568px){
 	body{
 		background-size: auto;
 		background-position: center center;
 	}
 	.social{
-		left:0%;
-		position: relative;
-		float: right;
+
 	}
 	#tagline{
 		padding-left: 20px;
@@ -239,6 +394,48 @@ transform-origin: top left;
 	.email_signup_form form input[type="text"] {
 	width:250px;
 	font-size: 14px;
+	}
+	#fold2 table, th, td, tr{
+		display:block;
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto; 
+		margin-bottom: 20px;
+	}
+	#fold3 table, th, td, tr{
+		display:block;
+	}
+	#fold4 table, th, td, tr{
+		display:block;
+	}
+
+	#fold2 td{
+		width: 100%;
+	}
+	#fold2 p{
+		width: 100%;
+	}
+	#fold3 table{
+		width: 100%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#fold3 td{
+		width: 100%;
+	}
+	#fold3 h2{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#fold3 li{
+		min-width: 250px;	
+	}
+	#fold4 td{
+		width: 100%;
+		padding-left: 0px;
 	}
 }
 @media all and (max-width:480px){
@@ -262,17 +459,14 @@ transform-origin: top left;
 	font-size: 12px;
 	}
 	.social{
-		position: relative;
-		text-align: center;
-		margin: auto;
+
 		bottom: 10px;
 		padding: 10px;
-		position: relative;
 		margin-top: 70px;
 		max-width: 380px;
 	}
 	.social a{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.contactus a{
 		margin-right: 20px;
