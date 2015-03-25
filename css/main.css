@@ -36,28 +36,33 @@ img{max-width:100% !important; height: auto;}
 		margin-right: auto;
 }
 #fold1{
-	background:url(../images/backgroundimage6.png);
+	/*background:url(../images/backgroundimage6.png);*/
 	font-family: 'Lato', sans-serif;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
+#fold1content{
+	float: left;
+	max-width: 700px;
+}
+
 #logo{
-	text-align: center;
-	padding-top: 70px;
+	text-align: left;
+	padding-top: 80px;
 }
 
 #tagline{
-	text-align: center;
+	text-align: left;
 	font-family: 'Roboto';
-	font-size: 38px;
+	font-size: 36px;
  	font-weight: 100;
- 	max-width: 900px;
- 	text-align: center;
- 	color:#fff;
+ 	max-width: 650px;
+ 	text-align: left;
+ 	color:#4f4f4f;
  	margin: auto;
- 	margin-top: 70px;
+ 	margin-top: 30px;
 }
 
 .email_signup{
@@ -65,15 +70,16 @@ img{max-width:100% !important; height: auto;}
     padding-top: 30px;
 }
 .email_signup_form{
-	text-align: center;
+	text-align: left;
 	background:rgba(255,255,255,0.89);
 	position: relative;
+	border: 2px solid #58c6da;
 	border-radius:3px;
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	-o-border-radius:3px;
 	padding: 1px;
-	margin: auto;
+	margin-left: 0px;
 	margin-top: 130px;
 	max-width:700px;
 	width: 400px;
@@ -83,8 +89,8 @@ img{max-width:100% !important; height: auto;}
 	font-weight: 300;
 }
 .email_signup_form form input[type="text"] {
-	border: none;
 	outline: none;
+	border: none;
 	background: none;
 	font-size:18px;
 	color:#6E6C6C;
@@ -94,7 +100,7 @@ img{max-width:100% !important; height: auto;}
 	padding-right: 45px;
 	margin-left: 5px;
     -webkit-appearance:none;
-    border-right: 1px solid #6E6C6C;
+    border-right: 2px solid #58c6da;
     font-family: 'Lato';
 	font-weight: 300;
 }
@@ -114,11 +120,24 @@ img{max-width:100% !important; height: auto;}
 	cursor: pointer;
 }
 
+#nexusphonegif{
+	float: right;
+	padding-top: 50px;
+	padding-left: 50px;
+	max-width: 25%;
+	height: auto;
+}
+#nexusphonegif img{
+	width: 100%;
+	height: auto;
+}
 .social {
 	display: inline-flex;
-	padding-top: 90px;	
-	padding-bottom: 20px;
-	text-align: left;
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;	
+	padding-bottom: 80px;
+	
 }
 
 .facebook {
@@ -146,20 +165,14 @@ transform-origin: top left;
 	font-family: 'Lato';
 	font-size: 22px;
 	height: 30px;
-	font-weight: 300;
- 	color: #f4f4f4;
+	font-weight: 400;
+ 	color: #494040;
  	margin-right: 40px;
 }
 
-.contactus a {
-	font-family: 'Lato';
-	font-size: 22px;
-	height: 30px;
-	font-weight: 300;
- 	color: #f4f4f4;
- 	margin-right: 40px;
+#fold2 {
+	background-color: #f4f4f4;
 }
-
 
 #fold2 h1{
 	font-size: 40px;
@@ -174,7 +187,7 @@ transform-origin: top left;
 	margin-top: 80px;
 	vertical-align: middle;
 	width: 100%;
-	margin-bottom: 80px;
+	padding-bottom: 80px;
 }
 
 #fold2 h2{
@@ -187,6 +200,7 @@ transform-origin: top left;
 }
 #fold2 td{
 	width: 50%;
+	padding-bottom: 80px;
 }
 
 #fold2 p{
@@ -202,8 +216,7 @@ transform-origin: top left;
 	margin: auto;
 }
 #fold3{
-	background-color: #f4f4f4;
-	padding-bottom: 50px;
+	padding-bottom: 150px;
 }
 #fold3 h1{
 	font-size: 40px;
@@ -215,7 +228,7 @@ transform-origin: top left;
 }
 
 #fold3 table{
-	margin-top: 50px;
+	margin-top: 80px;
 	vertical-align: middle;
 	width: 100%;
 }
@@ -241,10 +254,14 @@ transform-origin: top left;
 	margin-left: 35%;
 	font-family: 'Roboto';
 	font-weight: 300;
-	color: #6F6F6F;
+	color: #4f4f4f;
 	line-height: 36px;
 }
 
+#fold4 {
+	background-color: #f4f4f4;
+	padding-bottom: 30px;
+}
 #fold4 h1{
 	font-size: 40px;
 	font-family: 'Roboto';
@@ -315,7 +332,23 @@ transform-origin: top left;
 	display: inline-flex;
 	padding-bottom: 15px;
 }
+.blog1 a {
+	font-family: 'Lato';
+	font-size: 22px;
+	height: 30px;
+	font-weight: 300;
+ 	color: #f4f4f4;
+ 	margin-right: 40px;
+}
 
+.contactus a {
+	font-family: 'Lato';
+	font-size: 22px;
+	height: 30px;
+	font-weight: 300;
+ 	color: #f4f4f4;
+ 	margin-right: 40px;
+}
 /**************** Media Quries ************************/
 @media only screen and (min-width: 1380px){
 
@@ -327,10 +360,18 @@ transform-origin: top left;
 
 }
 @media all and (max-width: 1024px){
- 	
+ 	#fold1content{
+ 		padding-left: 25px;
+ 		max-width: 600px;
+ 	}
+ 	#nexusphonegif{
+ 		max-width: 20%;
+ 		height: auto;
+ 		padding-left:20px;
+ 	}
  }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:840px){
 	body{
 		background-size: auto;
 		background-position: center center;
@@ -338,12 +379,32 @@ transform-origin: top left;
 	.social{
 
 	}
-	#tagline{
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 30px;
+	#fold1content{
+		max-width: 100%;
+		margin-left: 10%;
 	}
-	
+	#logo{
+		text-align: center;
+		margin: auto;
+	}
+	#nexusphonegif{
+		visibility: hidden;
+		position: absolute;
+		top: -900px;
+	}
+	#tagline{
+		padding-right: 20px;
+		padding-top: 30px;
+		font-size: 30px;
+		text-align: center;
+		margin: auto;
+		max-width: 100%;
+	}
+	.email_signup_form{
+		text-align: center;
+		margin: auto;
+		margin-top: 80px;
+	}
 	#fold2 h1{
 		font-size: 32px;
 	}
@@ -381,6 +442,10 @@ transform-origin: top left;
 	}
 	.social{
 
+	}
+	#fold1content{
+		max-width: 100%;
+		margin-left: 0%;
 	}
 	#tagline{
 		padding-left: 20px;
@@ -470,6 +535,9 @@ transform-origin: top left;
 		margin-right: 10px;
 	}
 	.blog a{
+		margin-right: 10px;
+	}
+	.blog1 a{
 		margin-right: 10px;
 	}
 	.tableborder{
