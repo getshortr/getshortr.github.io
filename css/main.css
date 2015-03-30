@@ -66,13 +66,17 @@ img{max-width:100% !important; height: auto;}
 }
 
 .androidbeta {
-	text-decoration: underline;
 	text-align: left;
 	font-family: 'Roboto';
 	font-size: 24px;
  	font-weight: 100;
  	color:#000;
 }
+
+.androidbeta u {
+    text-decoration: none;
+    border-bottom: 1px solid #6f6f6f;
+  }​
 .email_signup{
 	display:inline-block;
     padding-top: 30px;
