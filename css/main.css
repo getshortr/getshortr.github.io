@@ -65,6 +65,14 @@ img{max-width:100% !important; height: auto;}
  	margin-top: 30px;
 }
 
+.androidbeta {
+	text-decoration: underline;
+	text-align: left;
+	font-family: 'Roboto';
+	font-size: 24px;
+ 	font-weight: 100;
+ 	color:#000;
+}
 .email_signup{
 	display:inline-block;
     padding-top: 30px;
@@ -80,7 +88,7 @@ img{max-width:100% !important; height: auto;}
 	-o-border-radius:3px;
 	padding: 1px;
 	margin-left: 0px;
-	margin-top: 130px;
+	margin-top: 100px;
 	max-width:700px;
 	width: 400px;
 	font-weight: 300;
